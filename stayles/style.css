@@ -10,4 +10,15 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+}
+
+.main {
+    background: red;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
 }
